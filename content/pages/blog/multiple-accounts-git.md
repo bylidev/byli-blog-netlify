@@ -1,3 +1,7 @@
+---
+title: How to Use Multiple Git Accounts with SSH Keys
+slug: multiple-ssh-keys
+---
 ## How to Use Multiple Git Accounts with SSH Keys
 
 ### 1. Check Existing SSH Keys
