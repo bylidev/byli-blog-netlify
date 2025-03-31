@@ -1,33 +1,10 @@
 {
     "logo": {
-        "url": "/images/logo.png",
+        "url": "/images/3KOPld-LogoMakr.png",
         "altText": "Logo light",
         "type": "ImageBlock"
     },
     "text": "",
-    "primaryLinks": {
-        "title": "",
-        "links": [
-            {
-                "label": "Features",
-                "altText": "Features page",
-                "url": "/",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
-            },
-            {
-                "label": "",
-                "url": "/pricing",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
-            }
-        ],
-        "type": "FooterLinksGroup"
-    },
     "secondaryLinks": {
         "title": "Categories",
         "links": [
@@ -78,7 +55,7 @@
     "socialLinks": [
         {
             "altText": "GitHub link",
-            "url": "https://github.com/netlify",
+            "url": "https://github.com/bylidev",
             "icon": "github",
             "type": "Social"
         },
@@ -90,13 +67,13 @@
         },
         {
             "altText": "LinkedIn link",
-            "url": "https://www.linkedin.com/company/netlify",
+            "url": "https://www.linkedin.com/in/nacholopezarg/",
             "icon": "linkedin",
             "type": "Social"
         },
         {
             "altText": "Email link",
-            "url": "/",
+            "url": "mailto:contact@byli.dev",
             "icon": "mail",
             "type": "Social"
         }
@@ -104,7 +81,7 @@
     "legalLinks": [
         {
             "label": "Terms",
-            "url": "/",
+            "url": "#",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -112,7 +89,7 @@
         },
         {
             "label": "Privacy",
-            "url": "/",
+            "url": "#",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -121,5 +98,44 @@
     ],
     "copyrightText": "",
     "colors": "bg-dark-fg-light",
-    "type": "Footer"
+    "type": "Footer",
+    "primaryLinks": {
+        "type": "FooterLinksGroup",
+        "title": "Company",
+        "links": [
+            {
+                "type": "Link",
+                "label": "About",
+                "altText": "",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "Contact",
+                "altText": "",
+                "url": "/blog",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "Third-Party",
+                "altText": "",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
+            }
+        ]
+    }
 }

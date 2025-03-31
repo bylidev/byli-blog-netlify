@@ -52,64 +52,20 @@ sections:
     items:
       - type: FeaturedItem
         title: Infrastructure
+        tagline: ''
         subtitle: Infrastructure & Homelabs – Standard by These Nuts
         text: >+
           Homelabs are all about experimenting, learning, and building IT
           infrastructure
 
-
-
-        actions:
-          - type: Link
-            label: View more
-            altText: ''
-            url: /
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            elementId: ''
-        elementId: null
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-            justifyContent: center
-            textAlign: left
         image:
           type: ImageBlock
-          altText: Lightning bolt symbol on red background
-          elementId: ''
           url: /images/may_2020_home_lab.avif
+          altText: Placeholder text
           styles:
             self:
               borderRadius: x-large
-      - title: Design Patterns
-        subtitle: Writing the Same Code Twice is a Crime
-        text: >
-          Design patterns are like cheat codes for coding. Why reinvent the
-          wheel when you can just copy and paste the best practices?
-        image:
-          url: /images/adapter.jpg
-          altText: Featured icon two
-          elementId: ''
-          type: ImageBlock
-        actions:
-          - type: Link
-            label: View more
-            altText: ''
-            url: /
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            elementId: ''
+        actions: []
         colors: bg-light-fg-dark
         styles:
           self:
@@ -119,30 +75,24 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
-            textAlign: left
-            justifyContent: center
-        type: FeaturedItem
-      - title: API's & integrations
+            flexDirection: col
+      - type: FeaturedItem
+        title: API's & integrations
+        tagline: ''
         subtitle: 'Beating Premium, One Trick at a Time'
-        text: >
+        text: >+
           Why pay for premium when you can get creative? We explore hacks,
           tricks, and workarounds to maximize APIs without breaking the bank.
+
         image:
-          url: /images/icon1.svg
-          altText: Featured icon three
-          elementId: ''
           type: ImageBlock
-        actions:
-          - type: Link
-            label: View more
-            altText: ''
-            url: /
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            elementId: ''
+          url: >-
+            /images/66757693d0966a62590ecf0e_what-is-integration-testing-types-tools-best-practices-main.webp
+          altText: Placeholder text
+          styles:
+            self:
+              borderRadius: x-large
+        actions: []
         colors: bg-light-fg-dark
         styles:
           self:
@@ -152,8 +102,33 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
-        type: FeaturedItem
+            flexDirection: col
+      - type: FeaturedItem
+        title: Design Patterns
+        tagline: ''
+        subtitle: Writing the Same Code Twice is a Crime
+        text: >+
+          Design patterns are like cheat codes for coding. Why reinvent the
+          wheel when you can just copy and paste the best practices?
+
+        image:
+          type: ImageBlock
+          url: /images/composite.jpg
+          altText: Placeholder text
+          styles:
+            self:
+              borderRadius: x-large
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: col
     actions:
       - label: View all categories
         altText: ''
