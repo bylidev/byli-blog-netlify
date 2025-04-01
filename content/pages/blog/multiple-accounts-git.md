@@ -1,5 +1,5 @@
 ---
-title: How to use multiple accounts in git?
+title: How to use multiple accounts in git
 slug: how-to-use-multiple-accounts-in-git
 date: '2023-03-25'
 featuredImage:
@@ -21,6 +21,7 @@ styles:
     flexDirection: col
 isFeatured: false
 ---
+
 ## How to Use Multiple Git Accounts with SSH Keys
 
 ### 1. Check Existing SSH Keys
