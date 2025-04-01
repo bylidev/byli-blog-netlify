@@ -1,7 +1,7 @@
 ---
 type: PostLayout
 title: git-accounts
-slug: how-to-use-multiple-accounts-in-git
+slug: how-to-use-multiple-accounts-in-git-1
 date: '2022-10-10'
 excerpt: >-
   Facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper.
@@ -50,7 +50,6 @@ bottomSections:
     styles:
       self:
         justifyContent: center
-slug: git
 isFeatured: true
 isDraft: false
 seo:
