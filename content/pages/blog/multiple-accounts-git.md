@@ -1,67 +1,25 @@
 ---
-type: PostLayout
-title: git-accounts
-slug: how-to-use-multiple-accounts-in-git-1
-date: '2022-10-10'
-excerpt: >-
-  Facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper.
-  Donec sed facilisis nibh.
+title: How to use multiple accounts in git?
+slug: how-to-use-multiple-accounts-in-git
+date: '2023-03-25'
 featuredImage:
-  type: ImageBlock
   url: /images/git.jpg
   altText: Thumbnail
-  elementId: ''
+  type: ImageBlock
   styles:
     self:
-      padding:
-        - pt-0
-        - pl-0
-        - pb-0
-        - pr-0
-bottomSections:
-  - type: DividerSection
-    title: Divider
-    elementId: ''
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-3
-          - pl-3
-          - pb-3
-          - pr-3
-  - type: RecentPostsSection
-    title:
-      type: TitleBlock
-      text: Recent posts
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-    recentCount: 3
-    showThumbnail: true
-    showExcerpt: true
-    showDate: true
-    showAuthor: true
-    actions: []
-    elementId: ''
-    variant: three-col-grid
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        justifyContent: center
-isFeatured: true
-isDraft: false
+      borderRadius: medium
 seo:
+  metaTitle: How to use multiple accounts in git
+  metaDescription: How to use multiple accounts in git.
+  socialImage: /images/git.jpg
   type: Seo
-  metaTitle: How to use multiple accounts in git?
-  metaDescription: How to use multiple accounts in git?
-  addTitleSuffix: false
-  metaTags: []
 colors: bg-light-fg-dark
+type: PostLayout
 styles:
   self:
     flexDirection: col
+isFeatured: false
 ---
 ## How to Use Multiple Git Accounts with SSH Keys
 
