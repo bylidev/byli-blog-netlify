@@ -43,7 +43,6 @@ sections:
         self:
           textAlign: center
     posts:
-      - content/pages/blog/what-is-a-design-system.md
       - content/pages/blog/abstract-factory-pattern.md
       - content/pages/blog/adapter-pattern.md
       - content/pages/blog/bridge-pattern.md
