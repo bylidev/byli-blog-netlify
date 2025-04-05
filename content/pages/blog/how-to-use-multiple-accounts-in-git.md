@@ -1,5 +1,5 @@
 ---
-author: Ignacio Lopez
+author: content/data/person1.json
 colors: bg-light-fg-dark
 date: '2023-07-07'
 featuredImage:
