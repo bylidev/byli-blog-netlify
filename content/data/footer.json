@@ -10,7 +10,7 @@
         "links": [
             {
                 "label": "Blog",
-                "url": "/blog",
+                "url": "/content",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -20,7 +20,7 @@
                 "type": "Link",
                 "label": "Infrastructure",
                 "altText": "",
-                "url": "/",
+                "url": "/blog/infrastructure",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
@@ -31,7 +31,7 @@
                 "type": "Link",
                 "label": "Design patterns",
                 "altText": "",
-                "url": "/",
+                "url": "/blog/what-is-a-design-pattern/",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
@@ -42,7 +42,7 @@
                 "type": "Link",
                 "label": "Integrations",
                 "altText": "",
-                "url": "/",
+                "url": "/blog/integrations/",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
@@ -60,42 +60,13 @@
             "type": "Social"
         },
         {
-            "altText": "Twitter link",
-            "url": "https://twitter.com/netlify",
-            "icon": "twitter",
-            "type": "Social"
-        },
-        {
-            "altText": "LinkedIn link",
-            "url": "https://www.linkedin.com/in/nacholopezarg/",
-            "icon": "linkedin",
-            "type": "Social"
-        },
-        {
             "altText": "Email link",
             "url": "mailto:contact@byli.dev",
             "icon": "mail",
             "type": "Social"
         }
     ],
-    "legalLinks": [
-        {
-            "label": "Terms",
-            "url": "#",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
-            "label": "Privacy",
-            "url": "#",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        }
-    ],
+    "legalLinks": [],
     "copyrightText": "",
     "colors": "bg-dark-fg-light",
     "type": "Footer",
@@ -107,7 +78,7 @@
                 "type": "Link",
                 "label": "About",
                 "altText": "",
-                "url": "/",
+                "url": "#main",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
