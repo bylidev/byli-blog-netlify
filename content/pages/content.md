@@ -74,7 +74,7 @@ sections:
       - content/pages/blog/how-to-use-multiple-accounts-in-git.md
       - content/pages/blog/blog.md
     showThumbnail: true
-    showExcerpt: false
+    showExcerpt: true
     showDate: false
     showAuthor: false
     actions: []
