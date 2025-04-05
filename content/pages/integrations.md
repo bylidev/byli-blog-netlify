@@ -39,7 +39,7 @@ bottomSections:
         self:
           textAlign: center
     posts:
-      - content/pages/blog/telegram-messages.md
+      - content/pages/telegram-messages.md
     showThumbnail: true
     showExcerpt: true
     showDate: false

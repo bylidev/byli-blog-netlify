@@ -36,34 +36,34 @@ sections:
           - pr-3
   - type: FeaturedPostsSection
     posts:
-      - content/pages/blog/abstract-factory-pattern.md
-      - content/pages/blog/adapter-pattern.md
-      - content/pages/blog/bridge-pattern.md
-      - content/pages/blog/builder-pattern.md
-      - content/pages/blog/byli-cms.md
-      - content/pages/blog/chain-pattern.md
-      - content/pages/blog/class-diagram.md
-      - content/pages/blog/composite-pattern.md
-      - content/pages/blog/data-intensive-applications-1.md
-      - content/pages/blog/decorator-pattern.md
-      - content/pages/blog/design-patterns.md
-      - content/pages/blog/event-driven-arch.md
-      - content/pages/blog/facade-pattern.md
-      - content/pages/blog/factory-method.md
-      - content/pages/blog/flyweight-pattern.md
-      - content/pages/blog/hexagonal-go.md
-      - content/pages/blog/how-to-build-an-sdk.md
-      - content/pages/blog/ioc.md
-      - content/pages/blog/k8s-cronjob.md
-      - content/pages/blog/observability.md
-      - content/pages/blog/oop-pillars.md
-      - content/pages/blog/prototype-pattern.md
-      - content/pages/blog/proxy-pattern.md
-      - content/pages/blog/singleton-pattern.md
-      - content/pages/blog/solid.md
-      - content/pages/blog/telegram-messages.md
-      - content/pages/blog/tor-proxy.md
-      - content/pages/blog/how-to-use-multiple-accounts-in-git.md
+      - content/pages/abstract-factory-pattern.md
+      - content/pages/adapter-pattern.md
+      - content/pages/bridge-pattern.md
+      - content/pages/builder-pattern.md
+      - content/pages/byli-cms.md
+      - content/pages/chain-pattern.md
+      - content/pages/class-diagram.md
+      - content/pages/composite-pattern.md
+      - content/pages/data-intensive-applications-1.md
+      - content/pages/decorator-pattern.md
+      - content/pages/design-patterns.md
+      - content/pages/event-driven-arch.md
+      - content/pages/facade-pattern.md
+      - content/pages/factory-method.md
+      - content/pages/flyweight-pattern.md
+      - content/pages/hexagonal-go.md
+      - content/pages/how-to-build-an-sdk.md
+      - content/pages/ioc.md
+      - content/pages/k8s-cronjob.md
+      - content/pages/observability.md
+      - content/pages/oop-pillars.md
+      - content/pages/prototype-pattern.md
+      - content/pages/proxy-pattern.md
+      - content/pages/singleton-pattern.md
+      - content/pages/solid.md
+      - content/pages/telegram-messages.md
+      - content/pages/tor-proxy.md
+      - content/pages/how-to-use-multiple-accounts-in-git.md
     showThumbnail: true
     showExcerpt: true
     showDate: false

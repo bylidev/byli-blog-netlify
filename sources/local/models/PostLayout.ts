@@ -5,7 +5,7 @@ export const PostLayout: Model = {
     name: 'PostLayout',
     label: 'Post',
     labelField: 'title',
-    filePath: 'content/pages/blog/{slug}.md',
+    filePath: 'content/pages/{slug}.md',
     fieldGroups: [
         {
             name: 'thumbnail',

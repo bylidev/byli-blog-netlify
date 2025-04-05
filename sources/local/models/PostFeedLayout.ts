@@ -7,7 +7,7 @@ export const PostFeedLayout: Model = {
     labelField: 'title',
     singleInstance: true,
     canDelete: false,
-    filePath: 'content/pages/blog/index.md',
+    filePath: 'content/pages/index.md',
     fieldGroups: [
         {
             name: 'settings',

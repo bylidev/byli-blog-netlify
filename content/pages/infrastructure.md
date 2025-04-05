@@ -24,10 +24,10 @@ bottomSections:
         self:
           textAlign: center
     posts:
-      - content/pages/blog/socks5-proxy.md
-      - content/pages/blog/observability.md
-      - content/pages/blog/k8s-cronjob.md
-      - content/pages/blog/how-to-use-multiple-accounts-in-git.md
+      - content/pages/socks5-proxy.md
+      - content/pages/observability.md
+      - content/pages/k8s-cronjob.md
+      - content/pages/how-to-use-multiple-accounts-in-git.md
     showThumbnail: true
     showExcerpt: true
     showDate: false
