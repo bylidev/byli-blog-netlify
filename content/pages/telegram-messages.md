@@ -23,8 +23,6 @@ title: A Guide to Sending Telegram Messages
 type: PostLayout
 ---
 
-# Sending Telgram Messages via 'webhook'
-
 1.  Start a conversation with @BotFather.
 2.  Run the /newbot command.
 3.  Choose a name for your bot and save the HTTP token that's provided.

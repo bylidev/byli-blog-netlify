@@ -23,8 +23,6 @@ title: 'Singleton Pattern: Ensuring a Single Instance'
 type: PostLayout
 ---
 
-# Singleton Pattern: Ensuring a Single Instance
-
 The Singleton pattern is based on the idea of delivering a single instance of a class. It ensures that only one object of a class exists and provides a global point of access to that instance.
 
 ## The Need for Singleton

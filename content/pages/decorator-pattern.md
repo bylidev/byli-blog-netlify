@@ -23,8 +23,6 @@ title: 'Decorator Pattern: Adding Flexible Behaviors to Objects'
 type: PostLayout
 ---
 
-# Decorator Pattern: Adding Flexible Behaviors to Objects
-
 The Decorator pattern allows you to dynamically add extra behaviors to objects at runtime without altering the existing code that uses these objects. It provides a flexible and maintainable way to extend the functionality of objects without resorting to excessive inheritance.
 
 ## Understanding the Decorator Pattern

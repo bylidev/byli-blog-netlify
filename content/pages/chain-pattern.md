@@ -11,15 +11,15 @@ featuredImage:
   url: /images/evil_kermit.png
 isFeatured: false
 seo:
-  metaDescription: 'Facade Pattern: Simplifying Complex Systems.'
-  metaTitle: 'Facade Pattern: Simplifying Complex Systems'
+  metaDescription: 'Chain of responsability pattern'
+  metaTitle: 'Chain of responsability pattern'
   socialImage: /images/evil_kermit.png
   type: Seo
 slug: facade
 styles:
   self:
     flexDirection: col
-title: 'Facade Pattern: Simplifying Complex Systems'
+title: 'Chain of responsability pattern'
 type: PostLayout
 ---
 

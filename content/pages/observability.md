@@ -26,8 +26,6 @@ title: 'Unifying Log Management: A Guide to Ingesting, Storing, and Visualizing 
 type: PostLayout
 ---
 
-# A Guide to Ingesting, Storing, and Visualizing Logs from Various Applications
-
 ![guide architecture](/images/log_management_explained.png)
 
 The guide will be concise, so I won't delve too deep. There are three key components to log management that you need to know about.

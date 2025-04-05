@@ -26,7 +26,7 @@ title: 'Understanding Class Diagrams: Visualizing Relationships and Structure in
 type: PostLayout
 ---
 
-# Class Diagram
+## Class Diagram
 
 Class diagrams provide a quick and easy way to describe the relationships between classes. They are essential for representing various design patterns.
 

@@ -23,8 +23,6 @@ title: 'Adapter Pattern: Bridging Incompatible Interfaces'
 type: PostLayout
 ---
 
-# Adapter Pattern: Bridging Incompatible Interfaces
-
 The Adapter pattern is a structural design pattern that enables objects with incompatible interfaces to collaborate seamlessly.
 ![](/images/adapter-problem.png)
 

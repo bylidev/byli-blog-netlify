@@ -24,8 +24,6 @@ title: 'Factory Method Pattern: Creating Objects Without Knowing Exact Types'
 type: PostLayout
 ---
 
-# Factory Method Pattern: Creating Objects Without Knowing Exact Types
-
 The Factory Method pattern is a creational design pattern that provides a way to create objects without knowing their exact dependencies and types in advance. Instead of using the "new" operator directly, this pattern encapsulates the object creation process in a method called the factory method.
 
 ## Key Components of the Factory Method Pattern

@@ -25,7 +25,7 @@ title: 'Designing Data-Intensive Applications 1 : Reliability, Scalability & Mai
 type: PostLayout
 ---
 
-# Reliability, Scalability & Maintenability
+## Reliability, Scalability & Maintenability
 
 ![](/images/data-intensive-applications.png)
 

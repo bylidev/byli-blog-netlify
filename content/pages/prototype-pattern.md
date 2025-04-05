@@ -23,8 +23,6 @@ title: 'Prototype Pattern: Creating New Objects via Cloning'
 type: PostLayout
 ---
 
-# Prototype Pattern: Creating New Objects via Cloning
-
 The Prototype pattern is a creational design pattern that allows you to create new objects by copying existing ones.
 
 ## Key Components of the Prototype Pattern

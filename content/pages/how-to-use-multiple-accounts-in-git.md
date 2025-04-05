@@ -23,8 +23,6 @@ title: How to use multiple accounts in git?
 type: PostLayout
 ---
 
-## How to Use Multiple Git Accounts with SSH Keys
-
 ### 1. Check Existing SSH Keys
 
 Before proceeding, check if you already have SSH keys generated on your system. Open a terminal and run the following command:

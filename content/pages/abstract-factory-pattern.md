@@ -23,8 +23,6 @@ title: 'Abstract Factory Pattern: Creating Family of Objects'
 type: PostLayout
 ---
 
-# Abstract Factory Pattern: Creating Family of Objects
-
 The Abstract Factory pattern provides an interface to create families of related objects without specifying their concrete classes.
 
 ## Key Components of the Abstract Factory Pattern

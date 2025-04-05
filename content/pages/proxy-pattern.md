@@ -23,9 +23,6 @@ title: 'Proxy Pattern : Controlling Object Access'
 type: PostLayout
 ---
 
-# Proxy Pattern: Controlling Object Access
-
-
 ## Motivation
 
 The Proxy design pattern provides a surrogate or placeholder for another object, allowing us to control access to it. One key reason for using a proxy is to defer the full cost of creating and initializing an object until it's actually needed. For instance, in a document editor with graphical objects, some expensive objects like large raster images should be created only when required, not all at once during document opening, as not all objects may be visible simultaneously.

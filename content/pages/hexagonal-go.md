@@ -26,8 +26,6 @@ title: 'Diving Deep into Hexagonal Architecture with Go: Building Modular and Te
 type: PostLayout
 ---
 
-# Dive into Hexagonal Architecture with Go!
-
 ## Introduction
 
 Hexagonal Architecture, also known as Ports and Adapters, is a concept created by Alistair Cockburn to build scalable, clean software while adhering to essential principles of good software architecture. This approach promotes separation of concerns, enabling flexible integration with external systems and enhancing testability, ultimately leading to maintainable and robust applications. In this blog post, we'll explore how the  [Hexa-Notification](https://github.com/igloar96/hexa-notification?ref=0.0.0.0)  project leverages hexagonal architecture to create a highly customizable and easy-to-use notification system.

@@ -23,8 +23,6 @@ title: 'Facade Pattern: Simplifying Complex Systems'
 type: PostLayout
 ---
 
-# Facade Design Pattern: Simplifying Complex Systems
-
 The Facade design pattern is a structural pattern that offers a simplified interface to a complex system, library, or framework. It acts as a unified interface, concealing the inner workings of a cumbersome or intricate subsystem, which we might prefer to keep hidden from the outside world.
 
 The beauty of this pattern lies in its simplicity. It provides an elegant interface that shields users from the complexity lurking beneath the surface, making it easier to interact with the system.

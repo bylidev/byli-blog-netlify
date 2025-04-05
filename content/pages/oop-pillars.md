@@ -26,8 +26,6 @@ title: 'Exploring the Core Principles of Object-Oriented Programming: The Pillar
 type: PostLayout
 ---
 
-# OOP Pillars
-
 The object-oriented programming paradigm has four basic principles known as "**the four pillars of OOP**" that we must adhere to:
 
 1.  **Abstraction**: It involves representing real-world objects in classes by including only the relevant attributes and methods. We don't need to represent 100% of the object's attributes and actions unless we use them.

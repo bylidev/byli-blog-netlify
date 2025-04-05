@@ -23,8 +23,6 @@ title: Resilient CronJob-based Webhook in K8S for Distributed services
 type: PostLayout
 ---
 
-# Resilient CronJob-based Webhook in K8S for Distributed services
-
 ## Requirements
 
 I needed a cronjob-based webhook with retries. In other words, if I had a service called 'X' with 10 replicas, I wanted a CronJob that would execute only once on any of those replicas. Additionally, I wanted to ensure that the cron job had resilient retry strategies in case of failures.

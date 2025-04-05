@@ -23,7 +23,7 @@ title: 'Composite Pattern: Building Tree-like Structures'
 type: PostLayout
 ---
 
-# Composite Pattern: Building Tree-like Structures
+## Composite Pattern: Building Tree-like Structures
 
 The Composite pattern is akin to a tree structure, comprising containers and leaves. The containers, also known as composites, can hold leaves or other composites, but a leaf is the terminal component at its level and cannot contain further elements.
 

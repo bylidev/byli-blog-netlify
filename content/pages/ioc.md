@@ -23,8 +23,6 @@ title: Compiled IoC for JAVA
 type: PostLayout
 ---
 
-## Compiled IoC for JAVA
-
 ![](/images/ioc.webp)
 # Compiled IoC for Java 🛠️
 

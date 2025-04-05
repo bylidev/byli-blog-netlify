@@ -25,7 +25,6 @@ type: PostLayout
 
 ![SOLID Principles](/images/construction.jpg)
 
-# SOLID Principles
 
 SOLID is a mnemonic acronym for five design principles devised to make software designs more understandable, flexible, and easy to maintain.
 

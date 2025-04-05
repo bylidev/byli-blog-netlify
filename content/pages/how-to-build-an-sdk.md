@@ -22,8 +22,6 @@ styles:
 title: 'Avoiding Team Conflicts: Bridging API Definitions with SDKs'
 type: PostLayout
 ---
-
-# Managing Microservices with SDK's
 ![conflict](/images/cat-meme.jpg)
 
 ## Introduction
