@@ -42,7 +42,7 @@
                 "type": "Link",
                 "label": "Integrations",
                 "altText": "",
-                "url": "/blog/integrations/",
+                "url": "/integrations/",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
