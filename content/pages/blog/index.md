@@ -1,8 +1,8 @@
 ---
 type: PostFeedLayout
-title: Infrastructure
+title: deprecated
 numOfPostsPerPage: 10
-enableSearch: true
+enableSearch: false
 slug: infrastructure
 isDraft: false
 topSections: []
