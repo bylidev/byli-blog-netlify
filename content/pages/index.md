@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: The IT Community
+      text: Byli’s Dev Core
       color: text-dark
       type: TitleBlock
     subtitle: ''
