@@ -101,7 +101,16 @@ sections:
           styles:
             self:
               borderRadius: x-large
-        actions: []
+        actions:
+          - type: Link
+            label: See Tutorials
+            altText: ''
+            url: /blog/integrations/
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
         colors: bg-light-fg-dark
         styles:
           self:
@@ -201,10 +210,10 @@ sections:
       showing off your service to the world.
     actions:
       - type: Link
-        label: Read
+        label: '[ INCOMING ]'
         altText: ''
-        url: /
-        showIcon: true
+        url: '#'
+        showIcon: false
         icon: arrowRight
         iconPosition: right
         style: secondary
