@@ -72,7 +72,7 @@ sections:
     elementId: ''
     variant: two-col-grid
     colors: bg-light-fg-dark
-    hoverEffect: thin-underline
+    hoverEffect: shadow
     styles:
       self:
         padding:
