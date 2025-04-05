@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: The Community for Real Geeks
+      text: The IT Community
       color: text-dark
       type: TitleBlock
     subtitle: ''
