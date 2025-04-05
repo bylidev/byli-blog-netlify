@@ -105,7 +105,7 @@ sections:
           - type: Link
             label: Read
             altText: ''
-            url: /blog/integrations/
+            url: /integrations/
             showIcon: true
             icon: arrowRight
             iconPosition: right
