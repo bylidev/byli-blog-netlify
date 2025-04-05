@@ -5,18 +5,6 @@ date: '2022-10-10'
 excerpt: >-
   Facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper.
   Donec sed facilisis nibh.
-featuredImage:
-  type: ImageBlock
-  url: /images/abstract-feature1.svg
-  altText: Thumbnail
-  elementId: ''
-  styles:
-    self:
-      padding:
-        - pt-0
-        - pl-0
-        - pb-0
-        - pr-0
 bottomSections:
   - type: DividerSection
     title: Divider
@@ -64,10 +52,11 @@ isFeatured: true
 isDraft: false
 seo:
   type: Seo
-  metaTitle: lorem-ipsum
-  metaDescription: lorem-ipsum
+  metaTitle: infrastructure
+  metaDescription: devops and infrastructure
   addTitleSuffix: false
   metaTags: []
+  socialImage: /images/Screenshot 2025-03-30 203003.png
 colors: bg-light-fg-dark
 styles:
   self:
