@@ -76,7 +76,7 @@ sections:
     showThumbnail: true
     showExcerpt: true
     showDate: false
-    showAuthor: true
+    showAuthor: false
     actions: []
     elementId: ''
     variant: big-list
