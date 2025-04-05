@@ -14,7 +14,7 @@ sections:
     showThumbnail: true
     showExcerpt: true
     showDate: true
-    showAuthor: true
+    showAuthor: false
     actions: []
     elementId: ''
     variant: three-col-grid
