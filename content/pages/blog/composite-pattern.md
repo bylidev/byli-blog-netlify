@@ -19,10 +19,6 @@ slug: composite-pattern
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- structural-patterns
-- oop
 title: 'Composite Pattern: Building Tree-like Structures'
 type: PostLayout
 ---

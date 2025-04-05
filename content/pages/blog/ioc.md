@@ -19,10 +19,6 @@ slug: dagger-ioc-for-java
 styles:
   self:
     flexDirection: col
-tags:
-- java
-- ioc
-- dagger
 title: Compiled IoC for JAVA
 type: PostLayout
 ---

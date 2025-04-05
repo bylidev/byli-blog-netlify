@@ -21,9 +21,6 @@ slug: class-diagram
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- oop
 title: 'Understanding Class Diagrams: Visualizing Relationships and Structure in Object-Oriented
   Systems'
 type: PostLayout

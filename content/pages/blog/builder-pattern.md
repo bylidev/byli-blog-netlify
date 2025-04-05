@@ -19,10 +19,6 @@ slug: builder-pattern
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- creational-patterns
-- oop
 title: 'Builder Pattern: Constructing Complex Objects Step by Step'
 type: PostLayout
 ---

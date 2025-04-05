@@ -19,9 +19,6 @@ slug: solid-principles
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- oop
 title: Unleashing the Power of SOLID Principles for Robust Code
 type: PostLayout
 ---

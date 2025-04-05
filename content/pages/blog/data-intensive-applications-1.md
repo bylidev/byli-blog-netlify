@@ -21,9 +21,6 @@ slug: data-intensive-applications-1
 styles:
   self:
     flexDirection: col
-tags:
-- software-arquitecture
-- data-intensive-applications
 title: 'Designing Data-Intensive Applications 1 : Reliability, Scalability & Maintainability'
 type: PostLayout
 ---

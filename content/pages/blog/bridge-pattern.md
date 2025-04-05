@@ -19,10 +19,6 @@ slug: bridge-pattern
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- structural-patterns
-- oop
 title: 'Bridge Pattern: Building Flexible and Efficient Abstractions'
 type: PostLayout
 ---

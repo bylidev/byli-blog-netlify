@@ -19,10 +19,6 @@ slug: singleton
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- creational-patterns
-- oop
 title: 'Singleton Pattern: Ensuring a Single Instance'
 type: PostLayout
 ---

@@ -21,10 +21,6 @@ slug: how-to-digest-data-with-loki-and-recover-it-with-graphana
 styles:
   self:
     flexDirection: col
-tags:
-- homelab
-- logs
-- k8s
 title: 'Unifying Log Management: A Guide to Ingesting, Storing, and Visualizing Logs
   from Various Applications'
 type: PostLayout

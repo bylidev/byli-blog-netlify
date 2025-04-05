@@ -21,9 +21,6 @@ slug: oop-pilars
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- oop
 title: 'Exploring the Core Principles of Object-Oriented Programming: The Pillars
   of OOP'
 type: PostLayout

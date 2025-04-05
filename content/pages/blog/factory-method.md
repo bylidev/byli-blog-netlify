@@ -20,10 +20,6 @@ slug: factory-method
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- creational-patterns
-- oop
 title: 'Factory Method Pattern: Creating Objects Without Knowing Exact Types'
 type: PostLayout
 ---

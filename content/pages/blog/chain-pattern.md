@@ -19,10 +19,6 @@ slug: facade
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- structural-patterns
-- oop
 title: 'Facade Pattern: Simplifying Complex Systems'
 type: PostLayout
 ---

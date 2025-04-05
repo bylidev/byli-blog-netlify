@@ -19,10 +19,6 @@ slug: flyweight
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- structural-patterns
-- oop
 title: 'Flyweight Pattern: Optimizing Memory Usage and Performance'
 type: PostLayout
 ---

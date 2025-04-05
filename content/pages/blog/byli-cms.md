@@ -20,10 +20,6 @@ slug: mnemosine-wiki
 styles:
   self:
     flexDirection: col
-tags:
-- markdown
-- wiki
-- mnemosine
 title: Mnemosine Wiki - Deploy your wiki with markdowns without servers !
 type: PostLayout
 ---

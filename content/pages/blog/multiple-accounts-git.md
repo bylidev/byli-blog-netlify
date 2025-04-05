@@ -19,8 +19,6 @@ slug: how-to-use-multiple-accounts-in-git
 styles:
   self:
     flexDirection: col
-tags:
-- git
 title: How to use multiple accounts in git?
 type: PostLayout
 ---

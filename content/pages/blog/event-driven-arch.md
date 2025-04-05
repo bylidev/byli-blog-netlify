@@ -21,8 +21,6 @@ slug: events
 styles:
   self:
     flexDirection: col
-tags:
-- software-arquitecture
 title: 'Exploring Events: Use Cases, Event Types, Delivery Semantics, and Broker Technologies'
 type: PostLayout
 ---

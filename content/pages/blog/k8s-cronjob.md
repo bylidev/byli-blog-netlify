@@ -19,8 +19,6 @@ slug: k8s-cronjob
 styles:
   self:
     flexDirection: col
-tags:
-- k8s
 title: Resilient CronJob-based Webhook in K8S for Distributed services
 type: PostLayout
 ---

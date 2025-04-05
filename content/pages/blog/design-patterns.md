@@ -19,12 +19,6 @@ slug: what-is-a-design-pattern
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- creational-patterns
-- structural-patterns
-- behavioral-patterns
-- oop
 title: 'Design Patterns: High-Level Solutions to Common Problems'
 type: PostLayout
 ---

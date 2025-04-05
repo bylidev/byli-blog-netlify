@@ -19,10 +19,6 @@ slug: proxy
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- structural-patterns
-- oop
 title: 'Proxy Pattern : Controlling Object Access'
 type: PostLayout
 ---

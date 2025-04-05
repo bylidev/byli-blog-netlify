@@ -19,8 +19,6 @@ slug: socks5-proxy
 styles:
   self:
     flexDirection: col
-tags:
-- hacks
 title: 'Building a SOCKS5 Proxy with Tor and Docker: A Step-by-Step Guide'
 type: PostLayout
 ---

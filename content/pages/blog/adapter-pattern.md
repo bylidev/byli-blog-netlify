@@ -19,10 +19,6 @@ slug: adapter
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- structural-patterns
-- oop
 title: 'Adapter Pattern: Bridging Incompatible Interfaces'
 type: PostLayout
 ---

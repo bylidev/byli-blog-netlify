@@ -19,10 +19,6 @@ slug: decorator-pattern
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- structural-patterns
-- oop
 title: 'Decorator Pattern: Adding Flexible Behaviors to Objects'
 type: PostLayout
 ---

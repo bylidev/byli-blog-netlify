@@ -19,7 +19,6 @@ slug: '404'
 styles:
   self:
     flexDirection: col
-tags: []
 title: Not found page !
 type: PostLayout
 ---

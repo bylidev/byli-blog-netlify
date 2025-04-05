@@ -19,9 +19,6 @@ slug: sendingjsonCopy code -telgram-messages
 styles:
   self:
     flexDirection: col
-tags:
-- integrations
-- telegram
 title: A Guide to Sending Telegram Messages
 type: PostLayout
 ---

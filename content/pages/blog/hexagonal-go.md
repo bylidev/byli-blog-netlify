@@ -21,9 +21,6 @@ slug: a-clean-architecture-journey
 styles:
   self:
     flexDirection: col
-tags:
-- go
-- design-patterns
 title: 'Diving Deep into Hexagonal Architecture with Go: Building Modular and Testable
   Systems'
 type: PostLayout

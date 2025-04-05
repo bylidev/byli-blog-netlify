@@ -19,8 +19,6 @@ slug: sdk
 styles:
   self:
     flexDirection: col
-tags:
-- software-arquitecture
 title: 'Avoiding Team Conflicts: Bridging API Definitions with SDKs'
 type: PostLayout
 ---

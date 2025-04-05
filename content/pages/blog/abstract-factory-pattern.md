@@ -19,10 +19,6 @@ slug: abstract-factory
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- creational-patterns
-- oop
 title: 'Abstract Factory Pattern: Creating Family of Objects'
 type: PostLayout
 ---

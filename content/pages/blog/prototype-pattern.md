@@ -19,10 +19,6 @@ slug: prototype-pattern
 styles:
   self:
     flexDirection: col
-tags:
-- design-patterns
-- creational-patterns
-- oop
 title: 'Prototype Pattern: Creating New Objects via Cloning'
 type: PostLayout
 ---
