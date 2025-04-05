@@ -13,7 +13,7 @@ sections:
     actions:
       - label: Start reading
         altText: ''
-        url: /
+        url: /content
         showIcon: true
         icon: arrowRight
         iconPosition: right
