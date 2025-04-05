@@ -64,7 +64,6 @@ sections:
       - content/pages/blog/telegram-messages.md
       - content/pages/blog/tor-proxy.md
       - content/pages/blog/how-to-use-multiple-accounts-in-git.md
-      - content/pages/blog/blog.md
     showThumbnail: true
     showExcerpt: true
     showDate: false
