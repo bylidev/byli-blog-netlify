@@ -18,36 +18,6 @@ featuredImage:
         - pb-0
         - pr-0
 bottomSections:
-  - type: FeaturedPostsSection
-    title:
-      type: TitleBlock
-      text: Posts
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-    posts:
-      - content/pages/blog/socks5-proxy.md
-      - content/pages/blog/observability.md
-      - content/pages/blog/k8s-cronjob.md
-      - content/pages/blog/how-to-use-multiple-accounts-in-git.md
-    showThumbnail: true
-    showExcerpt: true
-    showDate: true
-    showAuthor: true
-    actions: []
-    elementId: ''
-    variant: small-list
-    colors: bg-light-fg-dark
-    hoverEffect: shadow
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-        justifyContent: center
   - type: DividerSection
     title: Divider
     elementId: ''
@@ -59,6 +29,36 @@ bottomSections:
           - pl-3
           - pb-3
           - pr-3
+  - type: FeaturedPostsSection
+    title:
+      type: TitleBlock
+      text: ''
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+    posts:
+      - content/pages/blog/socks5-proxy.md
+      - content/pages/blog/observability.md
+      - content/pages/blog/k8s-cronjob.md
+      - content/pages/blog/how-to-use-multiple-accounts-in-git.md
+    showThumbnail: true
+    showExcerpt: true
+    showDate: false
+    showAuthor: false
+    actions: []
+    elementId: ''
+    variant: three-col-grid
+    colors: bg-light-fg-dark
+    hoverEffect: shadow
+    styles:
+      self:
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+        justifyContent: center
 slug: infrastructure
 isFeatured: true
 isDraft: false
