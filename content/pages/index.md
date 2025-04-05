@@ -140,7 +140,7 @@ sections:
           - type: Link
             label: Read
             altText: ''
-            url: /blog/what-is-a-design-pattern
+            url: /what-is-a-design-pattern
             showIcon: true
             icon: arrowRight
             iconPosition: right
