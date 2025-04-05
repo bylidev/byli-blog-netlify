@@ -204,13 +204,13 @@ sections:
         self:
           textAlign: left
       type: TitleBlock
-    subtitle: Section with a video subtitle
+    subtitle: (Coming soon)
     text: >
       Keep your server's IP as hidden as your best-kept secret, while still
       showing off your service to the world.
     actions:
       - type: Link
-        label: '[ INCOMING ]'
+        label: ''
         altText: ''
         url: '#'
         showIcon: false
