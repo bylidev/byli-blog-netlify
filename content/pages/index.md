@@ -103,10 +103,10 @@ sections:
               borderRadius: x-large
         actions:
           - type: Link
-            label: See Tutorials
+            label: Read
             altText: ''
             url: /blog/integrations/
-            showIcon: false
+            showIcon: true
             icon: arrowRight
             iconPosition: right
             style: secondary
