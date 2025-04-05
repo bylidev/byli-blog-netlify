@@ -156,16 +156,7 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-    actions:
-      - label: View all categories
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        elementId: ''
-        type: Button
+    actions: []
     badge:
       label: ''
       color: text-primary
