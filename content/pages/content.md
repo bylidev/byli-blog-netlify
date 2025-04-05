@@ -79,7 +79,7 @@ sections:
     showAuthor: false
     actions: []
     elementId: ''
-    variant: big-list
+    variant: three-col-grid
     colors: bg-light-fg-dark
     hoverEffect: thin-underline
     styles:
