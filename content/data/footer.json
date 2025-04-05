@@ -89,7 +89,7 @@
                 "type": "Link",
                 "label": "Contact",
                 "altText": "",
-                "url": "/blog",
+                "url": "#",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
