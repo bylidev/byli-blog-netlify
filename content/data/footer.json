@@ -100,7 +100,7 @@
                 "type": "Link",
                 "label": "Third-Party",
                 "altText": "",
-                "url": "/blog/third-parties/",
+                "url": "/third-parties/",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
