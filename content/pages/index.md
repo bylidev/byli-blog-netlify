@@ -69,7 +69,7 @@ sections:
           - type: Link
             label: Read
             altText: ''
-            url: /infrastructure/
+            url: /infrastructure
             showIcon: true
             icon: arrowRight
             iconPosition: right
