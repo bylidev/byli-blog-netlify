@@ -35,13 +35,6 @@ sections:
           - pb-3
           - pr-3
   - type: FeaturedPostsSection
-    title:
-      type: TitleBlock
-      text: Featured posts
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
     posts:
       - content/pages/blog/abstract-factory-pattern.md
       - content/pages/blog/adapter-pattern.md
