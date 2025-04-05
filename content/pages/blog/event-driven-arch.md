@@ -26,7 +26,7 @@ type: PostLayout
 ---
 
 # Exploring Events: Use Cases, Event Types, Delivery Semantics, and Broker Technologies
-![conflict](./images/event.png)
+![conflict](/images/event.png)
 
 ## Common Use Cases for Event-Driven Architecture
 

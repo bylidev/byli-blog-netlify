@@ -44,7 +44,7 @@ The Composite pattern consists of the following components:
 3.  **Leaf**: Leaves implement the component interface and represent basic elements with no sub-elements.
 
 
-![](./images/composite-leaf.png)
+![](/images/composite-leaf.png)
 
 
 ## Implementing the Composite Pattern
@@ -71,6 +71,6 @@ The Composite pattern offers several advantages:
 
 The Composite pattern is a powerful design pattern for creating tree-like structures with containers and leaves. By providing a consistent interface for all elements, it enables seamless manipulation and traversal of complex hierarchies.
 
-![](./images/dom.png)
+![](/images/dom.png)
 
 In real-world examples like the DOM and file systems, the Composite pattern proves its versatility and effectiveness in managing hierarchical structures. By using this pattern, developers can build maintainable and flexible systems that scale effortlessly as new components are introduced.

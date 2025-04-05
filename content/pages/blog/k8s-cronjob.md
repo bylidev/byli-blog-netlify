@@ -77,7 +77,7 @@ spec:
 
 ### Retries example
 
-![](./images/k8s-cronjob.png)
+![](/images/k8s-cronjob.png)
 
 HTTP != 200's
 

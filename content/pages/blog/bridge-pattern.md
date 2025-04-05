@@ -37,13 +37,13 @@ At its core, the Bridge pattern separates the interface and implementation of a 
 
 The class diagram of the Bridge pattern demonstrates the relationships between the key components: the abstraction, the implementation, and their derived classes.
 
-![](./images/bridge-structure.png)
+![](/images/bridge-structure.png)
 
 ## Example: Building a TV with Remote Control
 
 Suppose we want to create a TV with a remote control. The Bridge pattern can act as a "link" between the two components, separating the TV's low-level implementation from the remote control's high-level features.
 
-![](./images/bridge-example.png)
+![](/images/bridge-example.png)
 
 ## Implementation Details
 

@@ -29,7 +29,7 @@ The Abstract Factory pattern provides an interface to create families of related
 
 ## Key Components of the Abstract Factory Pattern
 
-![](./images/abstract-factory-structure.png)
+![](/images/abstract-factory-structure.png)
 
 1.  **Abstract Products**: Abstract Products declare interfaces for a group of distinct but related products that form a product family. Each abstract product represents a specific type of object, such as a chair or a sofa.
 
@@ -42,7 +42,7 @@ The Abstract Factory pattern provides an interface to create families of related
 
 ## Example: Cross-Platform Application
 
-![](./images/abstract-factory.png)
+![](/images/abstract-factory.png)
 
 To illustrate the Abstract Factory pattern, imagine a cross-platform application that needs to support multiple operating systems. The application requires the creation of various UI components, such as buttons, menus, and text fields, which may have different implementations for each platform.
 

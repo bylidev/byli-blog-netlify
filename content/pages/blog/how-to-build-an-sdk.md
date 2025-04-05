@@ -24,7 +24,7 @@ type: PostLayout
 ---
 
 # Managing Microservices with SDK's
-![conflict](./images/cat-meme.jpg)
+![conflict](/images/cat-meme.jpg)
 
 ## Introduction
 
@@ -46,7 +46,7 @@ To mitigate these challenges, one solution is to use Software Development Kits (
 
 ### Proposal: SDK Solution
 
-![diagram](./images/sdk.png)
+![diagram](/images/sdk.png)
 
 We propose creating an SDK that includes DTOs, clients, and exceptions using Spring Boot's WebFlux library. By embedding the DTOs within the SDK, developers are encouraged to use the standardized data models across services, ensuring consistency.
 
@@ -62,7 +62,7 @@ We propose creating an SDK that includes DTOs, clients, and exceptions using Spr
 
 While it could be debated to have a shared DTO library between the SDK and the service, we decided to keep it within the SDK. This way, the SDK can be imported in a "provided" scope, allowing not only the use of DTOs but also enabling the service owner to perform integration tests using the clients located in the SDK. This approach ensures that the developer responsible for the SDK delivers an up-to-date package, promoting accountability and consistency across services.
 
-![diagram](./images/sdk-class-diagram.png)
+![diagram](/images/sdk-class-diagram.png)
 
 ### Benefits of Using SDKs
 

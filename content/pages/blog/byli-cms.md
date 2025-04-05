@@ -26,7 +26,7 @@ type: PostLayout
 
 ## The Most Powerful JMstack WIKI Made with Angular is Serverless and API-less! 💪
 
-![](./images/caffee.gif)
+![](/images/caffee.gif)
 
 ## 🔥 **What is Serverless?** 🚀
 

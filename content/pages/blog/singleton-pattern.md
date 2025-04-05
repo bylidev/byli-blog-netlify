@@ -31,7 +31,7 @@ The Singleton pattern is based on the idea of delivering a single instance of a 
 
 In certain situations, it is critical to guarantee that only one instance of a class exists. Consider a scenario where multiple printers are available, but there is only one pool responsible for handling printing tasks. In such cases, it becomes necessary to control the creation and access of the print manager object. This requirement is common in concurrent systems where access control to a single instance is crucial.
 # Structure
-![](./images/singleton-structure.png)
+![](/images/singleton-structure.png)
 
 
 ## Class Diagram with Private Constructor

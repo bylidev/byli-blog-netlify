@@ -46,7 +46,7 @@ At its core, the Flyweight pattern splits an object into intrinsic and extrinsic
 
 Below is the class diagram representing the structure of the Flyweight design pattern:
 
-![Flyweight Class Diagram](./images/flyweight-structure.png)
+![Flyweight Class Diagram](/images/flyweight-structure.png)
 
 In the class diagram, we can see the relationships between the key components of the Flyweight pattern. The client objects (Context) interact with the FlyweightFactory to obtain shared flyweight objects (ConcreteFlyweight) with the desired intrinsic state. The intrinsic state is then combined with the extrinsic state unique to each context, allowing the objects to behave as if they were fully instantiated instances, while minimizing memory overhead.
 

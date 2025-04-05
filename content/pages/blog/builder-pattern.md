@@ -28,7 +28,7 @@ type: PostLayout
 The Builder pattern is a creational design pattern that facilitates the construction of complex objects in a step-by-step manner. It also helps eliminate the need for telescoping constructors, making the object creation process more flexible and manageable.
 
 ## Key Components of the Builder Pattern
-![](./images/builder-structure.png)
+![](/images/builder-structure.png)
 1.  **Builder Interface**: The Builder interface declares the product construction steps that are common to all types of builders. Each builder provides different implementations of these construction steps, offering the manager various ways of building the product.
     
 2.  **Concrete Builders**: Concrete Builders provide different implementations of the construction steps defined in the Builder interface. They may produce products that do not necessarily follow a common interface or belong to the same class hierarchy.

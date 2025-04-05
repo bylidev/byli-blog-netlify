@@ -26,18 +26,18 @@ type: PostLayout
 # Adapter Pattern: Bridging Incompatible Interfaces
 
 The Adapter pattern is a structural design pattern that enables objects with incompatible interfaces to collaborate seamlessly.
-![](./images/adapter-problem.png)
+![](/images/adapter-problem.png)
 
 ## Implementing Adapter
 
 To overcome the incompatibility issue, you can create an adapter. The adapter acts as a special object that converts the interface of one object into a format understandable by another object.
 
 
-![](./images/adapter-solution.png)
+![](/images/adapter-solution.png)
 
 
 ## Structure of the Adapter Pattern
-![](./images/adapter-structure.png)
+![](/images/adapter-structure.png)
 The Adapter pattern comprises the following components:
 
 1.  **Client**: This class contains the existing business logic of the program.

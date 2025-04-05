@@ -36,31 +36,31 @@ Before diving into the world of design patterns, let's go over the most commonly
 
 -   **Association**
 
-![](./images/asossiation.png)
+![](/images/asossiation.png)
 
 Class 1 interacts with Class 2.
 
 -   **Aggregation**
 
-![](./images/aggregation.png)
+![](/images/aggregation.png)
 
 Class 1 doesn't create Class 2 but depends on it.
 
 -   **Composition**
 
-![](./images/composition.png)
+![](/images/composition.png)
 
 Class 1 is composed of N instances of Class 2.
 
 -   **Dependency**
 
-![](./images/dependency.png)
+![](/images/dependency.png)
 
 Class 1 uses Class 2.
 
 -   **Inheritance**
   
-![](./images/inheritance.png)
+![](/images/inheritance.png)
 
 Class 1 inherits from Class 2.
 
@@ -68,7 +68,7 @@ Class 1 inherits from Class 2.
 
 ## Analyzing a Diagram
 
-![](./images/class-diagram.png)
+![](/images/class-diagram.png)
 
 1.  Shape is an abstract class, indicated by the italic font style.
 2.  Shape is a superclass, and Circle, Rectangle, and Polygon are derived from Shape. In other words, Circle is a specific type of Shape. This relationship represents generalization/inheritance.

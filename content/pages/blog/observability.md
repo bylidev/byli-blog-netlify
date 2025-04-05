@@ -28,7 +28,7 @@ type: PostLayout
 
 # A Guide to Ingesting, Storing, and Visualizing Logs from Various Applications
 
-![guide architecture](./images/log_management_explained.png)
+![guide architecture](/images/log_management_explained.png)
 
 The guide will be concise, so I won't delve too deep. There are three key components to log management that you need to know about.
 
@@ -40,7 +40,7 @@ The guide will be concise, so I won't delve too deep. There are three key compon
 
 In this case, we have chosen Promtail, Loki, and Grafana as our tools for log management. However, it's important to note that there are many other options available in the market. The fundamental concept of ingesting, storing, and visualizing logs applies regardless of the specific tools you choose. You can tailor this guide to your own needs and select the tools that best fit your requirements.
 
-![grafana architecture](./images/grafana_architecture.png)
+![grafana architecture](/images/grafana_architecture.png)
 
 # Steps
 

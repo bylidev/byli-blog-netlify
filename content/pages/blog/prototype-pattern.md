@@ -28,7 +28,7 @@ type: PostLayout
 The Prototype pattern is a creational design pattern that allows you to create new objects by copying existing ones.
 
 ## Key Components of the Prototype Pattern
-![](./images/prototype-structure.jpg)
+![](/images/prototype-structure.jpg)
 1.  **Prototype Interface**: The Prototype interface declares the cloning methods. In most cases, it consists of a single `clone` method.
     
 2.  **Concrete Prototype Class**: Concrete Prototype classes implement the cloning method defined in the Prototype interface.

@@ -31,19 +31,19 @@ The Decorator pattern allows you to dynamically add extra behaviors to objects a
 
 When faced with a scenario where traditional inheritance might lead to a class explosion or tightly coupled classes, the Decorator pattern comes to the rescue. It follows the principle of composition over inheritance, where objects can be decorated with additional functionalities by aggregating or composing them at runtime.
 
-![](./images/decorator-diagram.png)
+![](/images/decorator-diagram.png)
 
 ## Class Diagram
 
 A class diagram is a visual representation that describes how classes are related to each other in an application. It is a crucial tool in understanding and depicting different design patterns. Before we delve into the world of design patterns, let's take a moment to familiarize ourselves with class diagrams.
 
-![](./images/decorator-structure.png)
+![](/images/decorator-structure.png)
 
 ## Example Use Case
 
 Consider a gasoline-powered car that we want to equip with nitro to enhance its performance. Since a car is typically a "final" product, extending the car class directly is not a feasible option. Instead, we can use the Decorator pattern to add customization without modifying the original car class. By creating a wrapper or a decorator, we can inject the nitro functionality at runtime.
 
-![](./images/decorator-example.png)
+![](/images/decorator-example.png)
 
 ## Implementation Details
 

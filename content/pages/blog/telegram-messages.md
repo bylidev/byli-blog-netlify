@@ -41,4 +41,4 @@ https://api.telegram.org/bot<TOKEN>/getUpdates
  https://api.telegram.org/bot{{ $json.bot_token }}/sendMessage?chat_id={{ $json.chat_id}}&parse_mode=html&text={{ $json.message }}
 ```
 
-![](./images/nachoficate.png)
+![](/images/nachoficate.png)

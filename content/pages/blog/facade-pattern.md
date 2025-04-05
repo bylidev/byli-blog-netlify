@@ -53,10 +53,10 @@ The Facade pattern brings several advantages to software development:
 -   **Abstraction**: The facade abstracts away the intricate implementation details, allowing for easier changes in the future.
 
 ## Structure
-![](./images/facade-structure.png)
+![](/images/facade-structure.png)
 
 ## Example
-![](./images/facade-example.png)
+![](/images/facade-example.png)
 ## Conclusion
 
 The Facade design pattern elegantly addresses the challenges of dealing with complex systems by providing a clean and straightforward interface. By hiding the "dark side" of a subsystem, the pattern promotes encapsulation and simplifies interactions, resulting in cleaner and more maintainable code.

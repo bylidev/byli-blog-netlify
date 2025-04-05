@@ -25,7 +25,7 @@ type: PostLayout
 
 # Building a SOCKS5 Proxy with Tor and Docker: A Step-by-Step Guide
 
-![SOLID Principles](./images/anon.jpg)
+![SOLID Principles](/images/anon.jpg)
 
 **What is a Tor proxy?**
 

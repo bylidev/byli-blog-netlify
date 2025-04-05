@@ -36,11 +36,11 @@ type: PostLayout
 
 ### Class Diagram
 
-![](./images/chain-structure.gif)
+![](/images/chain-structure.gif)
 
 ### Example
 
-![](./images/chain-example.png)
+![](/images/chain-example.png)
 
 
 [school request example](https://stackblitz.com/edit/typescript-fktrnv?file=index.ts)

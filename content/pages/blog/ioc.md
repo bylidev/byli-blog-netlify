@@ -25,7 +25,7 @@ type: PostLayout
 
 ## Compiled IoC for JAVA
 
-![](./images/ioc.webp)
+![](/images/ioc.webp)
 # Compiled IoC for Java 🛠️
 
 We’re going to explore **Dagger** as a **compiled** IoC for Java, as opposed to other IoCs like Spring Boot that inject dependencies at runtime.

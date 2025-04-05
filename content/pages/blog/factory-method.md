@@ -30,7 +30,7 @@ The Factory Method pattern is a creational design pattern that provides a way to
 
 ## Key Components of the Factory Method Pattern
 
-![](./images/factory.png)
+![](/images/factory.png)
 
 1.  **Product Interface**: Make all products follow the same interface. This interface should declare methods that make sense in all products. By adhering to a common interface, the products can be treated uniformly in the client code.
     

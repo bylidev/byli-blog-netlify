@@ -27,7 +27,7 @@ type: PostLayout
 
 # Reliability, Scalability & Maintenability
 
-![](./images/data-intensive-applications.png)
+![](/images/data-intensive-applications.png)
 
 We are going to explain tree concepts that are important in most software systems if we want to ***design data insensive applications***.
 

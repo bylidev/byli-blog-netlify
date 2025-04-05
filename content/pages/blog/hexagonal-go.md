@@ -38,7 +38,7 @@ Hexa-Notification is a project focused on providing a customizable and easy-to-u
 
 ### 2. Hexagonal Architecture Components
 
-![](./images/hexagonal.png)
+![](/images/hexagonal.png)
 
 https://online.visual-paradigm.com/es/diagrams/features/hexagonal-architecture-diagram-tool/
 

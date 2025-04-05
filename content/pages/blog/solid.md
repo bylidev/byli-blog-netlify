@@ -23,7 +23,7 @@ title: Unleashing the Power of SOLID Principles for Robust Code
 type: PostLayout
 ---
 
-![SOLID Principles](./images/construction.jpg)
+![SOLID Principles](/images/construction.jpg)
 
 # SOLID Principles
 

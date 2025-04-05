@@ -46,7 +46,7 @@ The Proxy pattern is applicable whenever a more versatile or sophisticated refer
     
 3.  **Protection Proxy**: Controls access to the original object, providing different access rights. KernelProxies in operating systems offer protected access to operating system objects.
 
-![](./images/proxy-example.png)
+![](/images/proxy-example.png)
 
 The image proxy creates the real image only when the document editor asks it to display itself by invoking its Draw operation. The proxy forwards subsequent requests directly to the image.It must therefore keep a referenceto the image after creating it.
 
@@ -59,7 +59,7 @@ Proxy is applicable whenever there  **is a need for a more versatile or sophisti
 -   A  **protection proxy** controls access to the original object. Protection proxies are useful when objects should have different access rights. For example KernelProxies in operating system's provides protected access to operating system objects.
 
 ### Structure
-![](./images/proxy-structure.png)
+![](/images/proxy-structure.png)
 
 
 ### Example 
