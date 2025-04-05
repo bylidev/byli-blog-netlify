@@ -69,7 +69,7 @@ sections:
           - type: Link
             label: Read
             altText: ''
-            url: /blog/infrastructure/
+            url: /infrastructure
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -105,7 +105,7 @@ sections:
           - type: Link
             label: Read
             altText: ''
-            url: /blog/integrations/
+            url: /integrations
             showIcon: true
             icon: arrowRight
             iconPosition: right
@@ -140,7 +140,7 @@ sections:
           - type: Link
             label: Read
             altText: ''
-            url: /blog/what-is-a-design-pattern
+            url: /what-is-a-design-pattern
             showIcon: true
             icon: arrowRight
             iconPosition: right
