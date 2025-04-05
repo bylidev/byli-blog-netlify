@@ -1,5 +1,5 @@
 ---
-author: Ignacio Lopez
+author: content/data/nacho.json
 colors: bg-light-fg-dark
 date: '2024-08-15'
 featuredImage:
