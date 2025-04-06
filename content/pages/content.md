@@ -12,7 +12,7 @@ sections:
           textAlign: center
     recentCount: 3
     showThumbnail: false
-    showExcerpt: true
+    showExcerpt: false
     showDate: false
     showAuthor: false
     actions: []
