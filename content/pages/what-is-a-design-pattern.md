@@ -44,6 +44,7 @@ bottomSections:
       - content/pages/blog/prototype-pattern.md
       - content/pages/blog/proxy-pattern.md
       - content/pages/blog/singleton-pattern.md
+      - content/pages/builder-pattern.md
     showThumbnail: true
     showExcerpt: true
     showDate: false
