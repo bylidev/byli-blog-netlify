@@ -14,7 +14,6 @@ sections:
       - content/pages/composite-pattern.md
       - content/pages/data-intensive-applications-1.md
       - content/pages/decorator-pattern.md
-      - content/pages/design-patterns.md
       - content/pages/event-driven-arch.md
       - content/pages/facade-pattern.md
       - content/pages/factory-method.md
