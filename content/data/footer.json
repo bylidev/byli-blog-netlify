@@ -89,7 +89,7 @@
                 "type": "Link",
                 "label": "Contact",
                 "altText": "",
-                "url": "#",
+                "url": "#contact-form",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
