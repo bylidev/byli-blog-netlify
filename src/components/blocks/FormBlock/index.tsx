@@ -20,7 +20,7 @@ export default function FormBlock(props) {
         const value = Object.fromEntries(data.entries());
         const form_data: any = JSON.stringify(value);
         const mailtoLink = `mailto:${form_data.email}?subject=Message%20from%20${encodeURIComponent(form_data.name)}&body=${encodeURIComponent(form_data.message)}`;
-        window.location.href = mailtoLink;
+        window.open(mailtoLink, '_blank');
     }
 
     return (
