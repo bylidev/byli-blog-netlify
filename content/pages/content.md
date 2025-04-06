@@ -17,7 +17,7 @@ sections:
     showAuthor: false
     actions: []
     elementId: ''
-    variant: three-col-grid
+    variant: big-list
     colors: bg-neutral-fg-dark
     hoverEffect: shadow-plus-move-up
     styles:
