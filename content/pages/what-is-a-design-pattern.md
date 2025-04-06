@@ -31,20 +31,19 @@ bottomSections:
         self:
           textAlign: center
     posts:
-      - content/pages/blog/adapter-pattern.md
-      - content/pages/blog/abstract-factory-pattern.md
-      - content/pages/blog/bridge-pattern.md
-      - content/pages/blog/builder-pattern.md
-      - content/pages/blog/chain-pattern.md
-      - content/pages/blog/composite-pattern.md
-      - content/pages/blog/decorator-pattern.md
-      - content/pages/blog/facade-pattern.md
-      - content/pages/blog/factory-method.md
-      - content/pages/blog/flyweight-pattern.md
-      - content/pages/blog/prototype-pattern.md
-      - content/pages/blog/proxy-pattern.md
-      - content/pages/blog/singleton-pattern.md
+      - content/pages/adapter-pattern.md
+      - content/pages/abstract-factory-pattern.md
+      - content/pages/bridge-pattern.md
       - content/pages/builder-pattern.md
+      - content/pages/chain-pattern.md
+      - content/pages/composite-pattern.md
+      - content/pages/decorator-pattern.md
+      - content/pages/facade-pattern.md
+      - content/pages/factory-method.md
+      - content/pages/flyweight-pattern.md
+      - content/pages/prototype-pattern.md
+      - content/pages/proxy-pattern.md
+      - content/pages/singleton-pattern.md
     showThumbnail: true
     showExcerpt: true
     showDate: false
