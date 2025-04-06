@@ -18,7 +18,7 @@ sections:
     actions: []
     elementId: ''
     variant: big-list
-    colors: bg-neutral-fg-dark
+    colors: bg-light-fg-dark
     hoverEffect: shadow-plus-move-up
     styles:
       self:
