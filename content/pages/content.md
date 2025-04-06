@@ -2,6 +2,27 @@
 type: PageLayout
 title: content
 sections:
+  - type: RecentPostsSection
+    title:
+      type: TitleBlock
+      text: Recent posts
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+    recentCount: 3
+    showThumbnail: true
+    showExcerpt: true
+    showDate: false
+    showAuthor: false
+    actions: []
+    elementId: ''
+    variant: three-col-grid
+    colors: bg-light-fg-dark
+    hoverEffect: shadow-plus-move-up
+    styles:
+      self:
+        justifyContent: center
   - type: FeaturedPostsSection
     posts:
       - content/pages/abstract-factory-pattern.md
@@ -48,27 +69,6 @@ sections:
           - pl-16
           - pb-16
           - pr-16
-        justifyContent: center
-  - type: RecentPostsSection
-    title:
-      type: TitleBlock
-      text: Recent posts
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-    recentCount: 3
-    showThumbnail: true
-    showExcerpt: true
-    showDate: false
-    showAuthor: false
-    actions: []
-    elementId: ''
-    variant: three-col-grid
-    colors: bg-light-fg-dark
-    hoverEffect: shadow-plus-move-up
-    styles:
-      self:
         justifyContent: center
   - type: DividerSection
     title: Divider
