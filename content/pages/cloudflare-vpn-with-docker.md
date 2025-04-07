@@ -57,8 +57,7 @@ seo:
   metaTitle: how to use cloudflare vpn with docker ?
   metaDescription: how to use cloudflare vpn with docker ?
   addTitleSuffix: false
-  metaTags:
-    - type: MetaTag
+  metaTags: []
   socialImage: /images/Screenshot 2025-03-30 210853.png
 colors: bg-light-fg-dark
 styles:
