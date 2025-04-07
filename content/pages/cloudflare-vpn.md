@@ -63,10 +63,42 @@ styles:
   self:
     flexDirection: col
 ---
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis.
+![](/images/Screenshot%202025-03-30%20210853.png)
 
-> Vestibulum ullamcorper risus auctor eleifend consequat.
+In this post we are going to explain how to expose our service through a Cloudflare VPN **for free**, no matter where we are deploying.
 
-In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+## Why this is important? 
 
-Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+When exposing our service directly to the internet, we lack the ability to effectively manage a DDoS attack. Instead, we can use Cloudflare as a reverse proxy and delegate that responsibility to them. Another key reason is that we should avoid exposing our IP address at all costs. This enhances our privacy and helps prevent issues like censorship. For instance, if an ISP or agency wanted to censor us, they would need to block a Cloudflare nameserver, which would disrupt countless other websites as well.
+
+## Top 5 IT Companies Using Cloudflare Protection
+
+*   IBM
+
+*   GitHub
+
+*   GitLab
+
+*   Atlassian
+
+*   Zendesk
+
+## How to use Cloudflare zero trust?
+
+### Create a "Tunnel" under zero trust > networks > tunnels.
+
+### ![](/images/image_2025-04-06_211944711.png)Run a cloudflare vpn on your server. 
+
+I am using a docker container but you can use [cloudflared cli](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/local-management/create-local-tunnel/) as well.
+
+```
+```
+
+[View docker-compose.yml file on GitHub](https://github.com/byli-dev/cloudflare_tunnel_demo)
+
+As you may notice, we don’t need to expose our Docker service port to the host because both services are on the same network.
+
+Httpd runs on port 80 by default, so we are mapping localhost only
+
+
+
