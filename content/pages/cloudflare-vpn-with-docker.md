@@ -55,7 +55,7 @@ isDraft: false
 seo:
   type: Seo
   metaTitle: how to use cloudflare vpn with docker ?
-  metaDescription: Hide your ip w
+  metaDescription: how to use cloudflare vpn with docker ?
   addTitleSuffix: false
   metaTags: []
 colors: bg-light-fg-dark
