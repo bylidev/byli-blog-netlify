@@ -55,7 +55,7 @@ isDraft: false
 seo:
   type: Seo
   metaTitle: how to use cloudflare vpn with docker ?
-  metaDescription: lorem-ipsum
+  metaDescription: Hide your ip w
   addTitleSuffix: false
   metaTags: []
 colors: bg-light-fg-dark
