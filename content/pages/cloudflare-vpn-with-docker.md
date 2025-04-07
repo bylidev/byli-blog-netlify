@@ -2,7 +2,7 @@
 type: PostLayout
 title: Hide Your Server's IP While Exposing Your Service
 date: '2022-10-10'
-excerpt: How to run cloudflare vpn on docker?
+excerpt: How to run cloudflare vpn with docker?
 featuredImage:
   type: ImageBlock
   url: /images/Screenshot 2025-03-30 210853.png
