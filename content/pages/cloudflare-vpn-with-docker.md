@@ -5,7 +5,7 @@ date: '2022-10-10'
 excerpt: How to run cloudflare vpn on docker?
 featuredImage:
   type: ImageBlock
-  url: /images/abstract-feature1.svg
+  url: /images/Screenshot 2025-03-30 210853.png
   altText: Thumbnail
   elementId: ''
   styles:
