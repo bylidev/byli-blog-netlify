@@ -54,7 +54,7 @@ isFeatured: false
 isDraft: false
 seo:
   type: Seo
-  metaTitle: lorem-ipsum
+  metaTitle: how to use cloudflare vpn with docker ?
   metaDescription: lorem-ipsum
   addTitleSuffix: false
   metaTags: []
