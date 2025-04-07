@@ -49,7 +49,7 @@ bottomSections:
     styles:
       self:
         justifyContent: center
-slug: cloudflare-vpn
+slug: cloudflare-vpn-with-docker
 isFeatured: false
 isDraft: false
 seo:
