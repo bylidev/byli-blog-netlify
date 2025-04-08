@@ -204,7 +204,7 @@ sections:
         label: Read
         altText: ''
         url: 'https://byli.dev/cloudflare-vpn-with-docker'
-        showIcon: false
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: secondary
