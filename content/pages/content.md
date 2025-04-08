@@ -8,13 +8,13 @@ sections:
       - content/pages/adapter-pattern.md
       - content/pages/bridge-pattern.md
       - content/pages/builder-pattern.md
+      - content/pages/cloudflare-vpn-with-docker.md
       - content/pages/byli-cms.md
       - content/pages/chain-pattern.md
       - content/pages/class-diagram.md
       - content/pages/composite-pattern.md
       - content/pages/data-intensive-applications-1.md
       - content/pages/decorator-pattern.md
-      - content/pages/cloudflare-vpn-with-docker.md
       - content/pages/event-driven-arch.md
       - content/pages/facade-pattern.md
       - content/pages/factory-method.md
