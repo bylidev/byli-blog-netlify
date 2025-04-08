@@ -24,11 +24,11 @@ sections:
       - content/pages/k8s-cronjob.md
       - content/pages/observability.md
       - content/pages/oop-pillars.md
+      - content/pages/cloudflare-vpn-with-docker.md
       - content/pages/prototype-pattern.md
       - content/pages/proxy-pattern.md
       - content/pages/singleton-pattern.md
       - content/pages/solid.md
-      - content/pages/cloudflare-vpn-with-docker.md
       - content/pages/telegram-messages.md
       - content/pages/tor-proxy.md
       - content/pages/how-to-use-multiple-accounts-in-git.md
