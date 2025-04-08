@@ -195,7 +195,7 @@ sections:
         self:
           textAlign: left
       type: TitleBlock
-    subtitle: (Coming soon)
+    subtitle: ''
     text: >
       Keep your server's IP as hidden as your best-kept secret, while still
       showing off your service to the world.
