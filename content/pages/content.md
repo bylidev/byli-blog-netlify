@@ -4,11 +4,11 @@ title: content
 sections:
   - type: FeaturedPostsSection
     posts:
+      - content/pages/cloudflare-vpn-with-docker.md
       - content/pages/abstract-factory-pattern.md
       - content/pages/adapter-pattern.md
       - content/pages/bridge-pattern.md
       - content/pages/builder-pattern.md
-      - content/pages/cloudflare-vpn-with-docker.md
       - content/pages/byli-cms.md
       - content/pages/chain-pattern.md
       - content/pages/class-diagram.md
