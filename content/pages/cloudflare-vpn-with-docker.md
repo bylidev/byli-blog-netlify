@@ -86,11 +86,23 @@ When exposing our service directly to the internet, we lack the ability to effec
 
 ### Create a "Tunnel" under zero trust > networks > tunnels.
 
-### ![](/images/image_2025-04-06_211944711.png)Run a cloudflare vpn on your server.
+### ![](/images/image_2025-04-06_211944711.png)
+
+Run a cloudflare vpn on your server.
 
 I am using a docker container but you can use [cloudflared cli](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/local-management/create-local-tunnel/) as well.
 
 ```
+version: '3'
+services:
+  httpd_alpine_demo:
+    image: httpd:alpine
+  vpn:
+    image: cloudflare/cloudflared
+    restart: unless-stopped
+    command: tunnel run
+    environment:
+      - TUNNEL_TOKEN=_CLOUDFLARE_TOKEN_
 ```
 
 [View docker-compose.yml file on GitHub](https://github.com/byli-dev/cloudflare_tunnel_demo)
@@ -103,5 +115,4 @@ We should use the service name we are exposing as dns.
 
 And that's it !
 
-[Visit Demo](zero-trust.byli.dev)![](/images/image_2025-04-08_001014400.png)
-
+You can [Visit Demo and follow us on GitHub !](zero-trust.byli.dev)![](/images/image_2025-04-08_001014400.png)
