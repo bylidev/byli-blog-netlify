@@ -97,6 +97,6 @@ I am using a docker container but you can use [cloudflared cli](https://develope
 
 As you may notice, we don’t need to expose our Docker service port to the host because both services are on the same network.
 
-Httpd runs on port 80 by default, so we are mapping localhost only
+We should use the service name we are exposing as dns.
 
-![](/images/image_2025-04-06_220234813.png)
+![](/images/image_2025-04-08_000810504.png)
