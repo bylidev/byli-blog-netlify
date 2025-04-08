@@ -14,11 +14,11 @@ sections:
       - content/pages/composite-pattern.md
       - content/pages/data-intensive-applications-1.md
       - content/pages/decorator-pattern.md
+      - content/pages/cloudflare-vpn-with-docker.md
       - content/pages/event-driven-arch.md
       - content/pages/facade-pattern.md
       - content/pages/factory-method.md
       - content/pages/flyweight-pattern.md
-      - content/pages/cloudflare-vpn-with-docker.md
       - content/pages/hexagonal-go.md
       - content/pages/how-to-build-an-sdk.md
       - content/pages/ioc.md
