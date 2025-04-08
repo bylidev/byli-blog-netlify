@@ -201,7 +201,7 @@ sections:
       showing off your service to the world.
     actions:
       - type: Link
-        label: ''
+        label: Read
         altText: ''
         url: '#'
         showIcon: false
