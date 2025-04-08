@@ -18,13 +18,13 @@ sections:
       - content/pages/facade-pattern.md
       - content/pages/factory-method.md
       - content/pages/flyweight-pattern.md
+      - content/pages/cloudflare-vpn-with-docker.md
       - content/pages/hexagonal-go.md
       - content/pages/how-to-build-an-sdk.md
       - content/pages/ioc.md
       - content/pages/k8s-cronjob.md
       - content/pages/observability.md
       - content/pages/oop-pillars.md
-      - content/pages/cloudflare-vpn-with-docker.md
       - content/pages/prototype-pattern.md
       - content/pages/proxy-pattern.md
       - content/pages/singleton-pattern.md
