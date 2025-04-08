@@ -31,6 +31,7 @@ sections:
       - content/pages/telegram-messages.md
       - content/pages/tor-proxy.md
       - content/pages/how-to-use-multiple-accounts-in-git.md
+      - content/pages/cloudflare-vpn-with-docker.md
     showThumbnail: true
     showExcerpt: true
     showDate: false
