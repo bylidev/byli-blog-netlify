@@ -100,3 +100,8 @@ As you may notice, we don’t need to expose our Docker service port to the host
 We should use the service name we are exposing as dns.
 
 ![](/images/image_2025-04-08_000810504.png)
+
+And that's it !
+
+[Visit Demo](zero-trust.byli.dev)![](/images/image_2025-04-08_001014400.png)
+
