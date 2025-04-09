@@ -115,4 +115,4 @@ We should use the service name we are exposing as dns.
 
 And that's it !
 
-You can [Visit Demo and follow us on GitHub !](zero-trust.byli.dev)![](/images/image_2025-04-08_001014400.png)
+You can [Visit Demo and follow us on GitHub !](https://zero-trust.byli.dev)![](/images/image_2025-04-08_001014400.png)
