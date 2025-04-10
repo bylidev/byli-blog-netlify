@@ -24,7 +24,7 @@ bottomSections:
         self:
           textAlign: center
     posts:
-      - content/pages/socks5-proxy.md
+      - content/pages/cloudflare-vpn-with-docker.md
       - content/pages/observability.md
       - content/pages/k8s-cronjob.md
       - content/pages/how-to-use-multiple-accounts-in-git.md
