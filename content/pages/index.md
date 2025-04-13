@@ -53,7 +53,7 @@ sections:
       - type: FeaturedItem
         title: Miscellaneous
         tagline: ''
-        subtitle: Miscellaneous
+        subtitle: 'Devops, Infra, etc.'
         text: >+
           Homelabs are all about experimenting, learning, and building IT
           infrastructure
