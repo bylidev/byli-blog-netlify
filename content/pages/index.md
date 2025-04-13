@@ -53,7 +53,7 @@ sections:
       - type: FeaturedItem
         title: Miscellaneous
         tagline: ''
-        subtitle: Infrastructure & Homelabs – Standard by These Nuts
+        subtitle: Miscellaneous
         text: >+
           Homelabs are all about experimenting, learning, and building IT
           infrastructure
