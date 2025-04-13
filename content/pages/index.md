@@ -51,7 +51,7 @@ sections:
     subtitle: Top categories
     items:
       - type: FeaturedItem
-        title: Infrastructure
+        title: 'https://www.youtube.com/watch?v=jFffcQBRKZY'
         tagline: ''
         subtitle: Infrastructure & Homelabs – Standard by These Nuts
         text: >+
