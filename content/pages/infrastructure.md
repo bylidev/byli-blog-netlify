@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: Devops & infrastructure
+title: Miscellaneous
 date: '2022-10-10'
 excerpt: ''
 bottomSections:
