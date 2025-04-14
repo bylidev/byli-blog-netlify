@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: This is a blog post with related posts
+title: Run self-hosted github-runner
 date: '2022-10-10'
 author: content/data/person1.json
 excerpt: >-
