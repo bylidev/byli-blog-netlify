@@ -64,10 +64,96 @@ styles:
   self:
     flexDirection: col
 ---
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis.
+# Why Self-Hosted Runners?
 
-> Vestibulum ullamcorper risus auctor eleifend consequat.
+Self-hosted GitHub Runners let you:
 
-In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+*   Run on your own servers for tailored performance.
 
-Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+*   Keep sensitive workflows secure.
+
+*   Avoid GitHub-hosted runner quotas.
+
+
+
+# The CI/CD Pipeline 
+
+We define our pipeline in `.github/workflows/ci.yaml` . This example triggers on pushes to main or tagged releases (`e.g., v1.0.0` ), builds a Docker image, pushes it to GitHub Container Registry (GHCR), and deploys it as a **stack.yaml**
+
+```
+name: CI Pipeline
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*.*.*'
+env:
+  PROJECT_NAME: ${{ github.event.repository.name }}
+  TAG_NAME: ${{ github.ref_name }}
+  IMAGE: ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:${{ github.ref_name }}
+jobs:
+  build-and-deploy:
+    runs-on: self-hosted
+    steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker Image
+        run: |
+          docker build . \
+            -t $IMAGE
+
+      - name: Log in to GitHub Container Registry
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          echo "${{ secrets.GIT_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Push Docker Image
+        if: startsWith(github.ref, 'refs/tags/')
+        run: docker push $IMAGE
+
+      - name: Deploy Docker Stack
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          sed -i "s|__IMAGE__|$IMAGE|" ./docker-compose.yml
+          sed -i "s|__REG_TOKEN__|${{ secrets.REG_TOKEN }}|" ./docker-compose.yml
+          mv ./docker-compose.yml /stacks/github/$PROJECT_NAME.yml
+          docker stack deploy --compose-file /stacks/github/$PROJECT_NAME.yml $PROJECT_NAME >> /dev/null
+```
+
+
+
+# How It Works
+
+*   **Triggers**: Runs on push to **main** or tags like **v1.0.0**.
+
+*   **Environment**:
+
+    *   Sets envs for the Docker build.
+
+    *   Defines IMAGE as **ghcr.io/owner/repo:tag** (e.g., ghcr.io/my-org/my-app:v1.0.0-prod-1).
+
+*   **Job**:
+
+    *   Build: Creates a Docker image with args for OS, architecture, and runner version.
+
+    *   Push: Logs into GHCR and pushes the image, but only for tagged releases.
+
+    *   Deploy: Updates docker-compose.yml with the image and a registration token, moves it to /stacks/github/, and deploys via Docker Swarm.
+
+*   Runner: Uses your self-hosted runner, which needs Docker and write access to /stacks/github/.
+
+## Setup Tips
+
+1.  **Runner**: Add a self-hosted runner in Settings > Actions > Runners. Install Docker on it.
+
+2.  **Secrets**: Store GIT\_TOKEN for GHCR login and REG\_TOKEN for deployment in GitHub Secrets.
+
+3.  **Permissions**: Ensure the runner can write to /stacks/github/. Use sudo if needed.
+
+# Conclusion
+
+This ci.yaml automates Docker image builds and deployments with your self-hosted GitHub Runner. Customize it for tests or other steps, and enjoy fast, secure CI/CD tailored to your needs.
+
