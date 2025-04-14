@@ -50,7 +50,7 @@ bottomSections:
     styles:
       self:
         justifyContent: center
-slug: this-is-a-blog-post-with-related-posts
+slug: self-hosted-github-runner
 isFeatured: false
 isDraft: false
 seo:
