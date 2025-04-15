@@ -74,9 +74,12 @@ Self-hosted GitHub Runners let you:
 
 *   Avoid GitHub-hosted runner quotas.
 
+# Github-Runner docker compose
 
+```
+```
 
-# The CI/CD Pipeline 
+# The CI/CD Pipeline
 
 We define our pipeline in `.github/workflows/ci.yaml` . This example triggers on pushes to main or tagged releases (`e.g., v1.0.0` ), builds a Docker image, pushes it to GitHub Container Registry (GHCR), and deploys it as a **stack.yaml**
 
@@ -123,8 +126,6 @@ jobs:
           docker stack deploy --compose-file /stacks/github/$PROJECT_NAME.yml $PROJECT_NAME >> /dev/null
 ```
 
-
-
 # How It Works
 
 *   **Triggers**: Runs on push to **main** or tags like **v1.0.0**.
@@ -156,4 +157,3 @@ jobs:
 # Conclusion
 
 This ci.yaml automates Docker image builds and deployments with your self-hosted GitHub Runner. Customize it for tests or other steps, and enjoy fast, secure CI/CD tailored to your needs.
-
