@@ -24,7 +24,6 @@ sections:
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
-      url: /images/Screenshot 2025-03-30 203003.png
     badge:
       label: ''
       color: text-primary
@@ -225,6 +224,27 @@ sections:
       styles:
         self:
           borderRadius: medium
+  - type: RecentPostsSection
+    title:
+      type: TitleBlock
+      text: Recent posts
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+    recentCount: 3
+    showThumbnail: true
+    showExcerpt: true
+    showDate: true
+    showAuthor: true
+    actions: []
+    elementId: ''
+    variant: three-col-grid
+    colors: bg-light-fg-dark
+    hoverEffect: thin-underline
+    styles:
+      self:
+        justifyContent: center
   - title: Divider
     colors: bg-light-fg-dark
     styles:
@@ -235,68 +255,6 @@ sections:
           - pb-7
           - pr-7
     type: DividerSection
-  - title:
-      text: Contact us
-      color: text-dark
-      type: TitleBlock
-    subtitle: Get in touch with us
-    text: >+
-
-      Have questions, feedback, or collaboration ideas? We’d love to hear from
-      you! Whether you're looking for IT insights, troubleshooting help, or just
-      want to connect, feel free to reach out. Our team is always ready to
-      discuss the latest in tech, share knowledge, and assist with any
-      inquiries. Let's innovate together!
-
-    media:
-      fields:
-        - name: name
-          label: Name
-          hideLabel: true
-          placeholder: Your name
-          isRequired: true
-          width: full
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Your email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
-          hideLabel: true
-          placeholder: Your message
-          width: full
-          type: TextareaFormControl
-      elementId: contact-form
-      styles:
-        self:
-          padding:
-            - pt-6
-            - pb-6
-            - pl-6
-            - pr-6
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: FormBlock
-      submitButton:
-        type: SubmitButtonFormControl
-        label: Submit
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: null
-    badge:
-      label: ''
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    type: GenericSection
 seo:
   metaTitle: Home - Demo site
   metaDescription: This demo site is built with Netlify Create.
